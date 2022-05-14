@@ -1,0 +1,32 @@
+
+.body_viwe{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card_viwe{
+    flex: 47%;
+    height: auto;
+    text-align: center; 
+}
+.card_viwe img{
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px){
+   
+}
+@media  (max-width:768px){
+
+    .card_viwe{
+        flex: 45%;
+    }
+  }
+     @media (max-width: 600px) {
+        .card_viwe{
+            flex: 90%;
+        }
+      }
+ 
